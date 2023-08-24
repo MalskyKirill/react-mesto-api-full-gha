@@ -1,0 +1,16 @@
+.sign__title {
+  margin: 0;
+  font-weight: var(--weight-black);
+  font-size: 24px;
+  font-style: normal;
+  line-height: 29px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 610px) {
+  .sign__title {
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,10 @@
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: var(--white);
+  font-family: var(--family);
+  font-weight: var(--weight-normal);
+  background-color: var(--background-color);
+}
+

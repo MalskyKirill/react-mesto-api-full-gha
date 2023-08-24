@@ -1,0 +1,8 @@
+.popup__photo {
+  width: 100%;
+  padding-bottom: 10px;
+  min-width: 25vw;
+  min-height: 25vh;
+  max-width: 75vw;
+  max-height: 75vh;
+}

@@ -1,0 +1,26 @@
+.popup__close-big-photo {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background-image: url(../../../images/close-icon.svg);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  border: none;
+  background-color: transparent;
+  background-position: 50% 50%;
+}
+
+.popup__close-big-photo:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (min-width: 610px) {
+  .popup__close-big-photo  {
+    right: -40px;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+  }
+}

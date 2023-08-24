@@ -1,0 +1,18 @@
+:root {
+  /* color */
+  --background-color: #000000;
+  --background-color-card: #FFFFFF;
+  --background-color-popup: rgba(0, 0, 0, 0.5);
+  --background-color-popup-big-picture: rgba(0, 0, 0, 0.9);
+  --white: #FFFFFF;
+  --black: #000000;
+  --gray: #545454;
+  --red: #FF0000;
+  --placeholder-color: #C4C4C4;
+
+  /* typography */
+  --family: 'Inter', arial, sans-serif;
+  --weight-black: 900;
+  --weight-medium: 500;
+  --weight-normal: 400;
+}

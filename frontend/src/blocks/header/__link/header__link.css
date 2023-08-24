@@ -1,0 +1,27 @@
+.header__link {
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--white);
+  background-color: var(--black);
+  border: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media (max-width: 610px) {
+  .header__link {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 34px;
+  }
+}

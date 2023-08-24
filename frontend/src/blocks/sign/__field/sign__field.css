@@ -1,0 +1,16 @@
+.sign__field {
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 13px;
+  width: 100%;
+  background-color: var(--black);
+  color: #FFF;
+  font-weight: var(--weight-medium);
+}
+
+.sign__field::placeholder{
+  color: #CCC;
+  font-weight: var(--weight-normal);
+}

@@ -1,0 +1,18 @@
+.popup {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color-popup);
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  font-family: var(--family);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0s linear 0.5s;
+}
+

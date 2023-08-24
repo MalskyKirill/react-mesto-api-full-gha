@@ -1,0 +1,20 @@
+.header__wrap {
+  display: flex;
+}
+
+
+@media (max-width: 760px) {
+  .header__wrap {
+    display: none;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: -200%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 1s top; */
+  }
+}

@@ -1,0 +1,30 @@
+.header {
+  max-width: 320px;
+  min-height: 56px;
+  padding: 27px 0 0 27px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media (min-width: 610px) {
+  .header {
+    max-width: 450px;
+    padding: 45px 0 0;
+  }
+}
+
+@media (min-width: 760px) {
+  .header {
+    max-width: 600px;
+    min-height: 74px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header {
+    max-width: 880px;
+  }
+}

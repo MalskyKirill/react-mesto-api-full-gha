@@ -1,0 +1,21 @@
+.header__mobile-btn {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .header__mobile-btn {
+    display: block;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    z-index: 10;
+    top: 53px
+  }
+}
+
+@media (max-width: 610px) {
+  .header__mobile-btn {
+    right: 30px;
+    top: 30px
+  }
+}
