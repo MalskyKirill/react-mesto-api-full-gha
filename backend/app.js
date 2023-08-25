@@ -6,6 +6,7 @@ const helmet = require('helmet');
 const { errors } = require('celebrate');
 const cors = require('cors');
 const router = require('./routs/index');
+const { requestLogger, errorLogger } = require('./midlewares/logger');
 
 const handleError = require('./midlewares/handleError');
 
@@ -22,7 +23,7 @@ mongoose
 
 const app = express(); // создаем обьект приложения
 
-app.use(cors());
+app.use(cors()); // подлючили корс
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -37,8 +38,12 @@ app.use(helmet());
 
 app.use(bodyParser.json()); // подключили бодипарсер
 
+app.use(requestLogger); // подключаем логгер запросов
+
 // роуты
 app.use(router);
+
+app.use(errorLogger); // подключаем логгер ошибок
 
 // обработчик ошибок celebrate
 app.use(errors());
