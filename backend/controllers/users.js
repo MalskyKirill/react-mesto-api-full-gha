@@ -8,6 +8,8 @@ const ValidationError = require('../utils/errors/ValidationError');
 const ConflictError = require('../utils/errors/ConflictError');
 const UnauthorizedError = require('../utils/errors/UnauthorizedError');
 
+const { NODE_ENV, JWT_SECRET } = process.env;
+
 const SALT_ROUNDS = 10;
 
 const getUsers = (req, res, next) => {
@@ -163,7 +165,7 @@ const loginUser = (req, res, next) => {
           return;
         }
 
-        const token = jwt.sign({ _id: user._id }, 'some-secret-key', { expiresIn: '7d' });
+        const token = jwt.sign({ _id: user._id }, NODE_ENV === 'production' ? JWT_SECRET : 'some-secret-key', { expiresIn: '7d' });
         res.send({ token });
       });
     })

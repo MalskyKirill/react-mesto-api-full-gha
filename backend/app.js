@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -10,7 +12,7 @@ const { requestLogger, errorLogger } = require('./midlewares/logger');
 
 const handleError = require('./midlewares/handleError');
 
-const PORT = 3000;
+const { PORT = 3000 } = process.env;
 
 // подключение к бд
 mongoose
