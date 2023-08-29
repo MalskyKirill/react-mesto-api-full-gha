@@ -16,9 +16,7 @@ const { PORT = 3000 } = process.env;
 
 // подключение к бд
 mongoose
-  .connect('mongodb://localhost:27017/mestodb', {
-    useNewUrlParser: true,
-  })
+  .connect('mongodb://127.0.0.1:27017/mestodb')
   .then(() => {
     console.log('подключение к бд');
   });
