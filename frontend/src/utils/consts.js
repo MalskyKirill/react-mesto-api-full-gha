@@ -8,6 +8,7 @@ export const validationConfig = {
 };
 
 //export const URL = 'https://mesto.nomoreparties.co/v1/cohort-66';
-export const URL = 'http://localhost:3000';
+// export const URL = 'http://localhost:3000';
+export const URL = 'https://api.mesto-malsky.nomoredomainsicu.ru';
 
 export const AUTHORIZATION_KEY = '5560fffb-e25e-4dd9-975c-0a2743d7627c';

@@ -1,5 +1,5 @@
 // export const AUTH_URL = 'https://auth.nomoreparties.co';
-export const AUTH_URL = 'http://localhost:3000';
+export const AUTH_URL = 'https://api.mesto-malsky.nomoredomainsicu.ru';
 
 
 const getResponseData = (res) => {
