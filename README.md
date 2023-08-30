@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/MalskyKirill/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 51.250.86.221
 
-Frontend https://...
+Frontend https://mesto-malsky.nomoredomainsicu.ru
 
-Backend https://...
+Backend https://api.mesto-malsky.nomoredomainsicu.ru
