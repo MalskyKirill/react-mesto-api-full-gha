@@ -14,3 +14,4 @@ IP-адрес 51.250.86.221
 Frontend https://mesto-malsky.nomoredomainsicu.ru
 
 Backend https://api.mesto-malsky.nomoredomainsicu.ru
+
