@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.86.221
+IP 51.250.86.221
 
 Frontend https://mesto-malsky.nomoredomainsicu.ru
 
