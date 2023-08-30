@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://malskykirill.github.io/react-mesto-auth",
+  "homepage": "./",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
