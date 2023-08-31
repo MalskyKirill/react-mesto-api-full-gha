@@ -18,6 +18,7 @@ router.post(
   }),
   createUser,
 );
+
 router.post(
   '/signin',
   celebrate({

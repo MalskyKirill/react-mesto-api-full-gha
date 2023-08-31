@@ -40,6 +40,13 @@ app.use(bodyParser.json()); // подключили бодипарсер
 
 app.use(requestLogger); // подключаем логгер запросов
 
+// краш-тест сервера
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 // роуты
 app.use(router);
 
